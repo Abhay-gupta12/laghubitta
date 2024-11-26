@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@100..900&display=swap');
+body 
+{
+    font-family: "Noto Serif Devanagari", serif !important;
+}
+a 
+{
+    text-decoration: none;
+    color: #000;
+}
+a:hover
+{
+    color: #0B9444;
+}
+.content
+{
+    font-size: 20px;
+    line-height: 1.8;
+}
+.bg-top, .menu
+{
+    background: #0B9444 !important;
+}
+.outer{
+    padding: 2em 1em;
+    box-shadow: 5px 5px 5px #d9d9d9;
+}
+.main img 
+{
+    height: 120px;
+    object-fit: cover;
+}
+.mainlogo img 
+{
+    height: 90px;
+    object-fit: contain;
+}
+.fs-6
+{
+    font-size: 12px !important;
+}
+.headerbar{
+    background: #0B9444 !important;
+    color: #ffffff !important;
+    position: relative;
+    margin-bottom: 1.5em;
+    margin-right: -2.5em;
+    margin-left: -2.5em;
+    box-shadow: 5px 5px 5px #d9d9d9;
+}
+.headerbar:before{
+    content: "";
+    position: absolute;
+    border-bottom: 1.5em solid #055928;
+    border-left: 1.5em solid transparent;
+    left: 0;
+    top: -1.5em;
+    
+}
+.headerbar:after{
+    content: "";
+    position: absolute;
+    border-top: 1.5em solid #055928;
+    border-right: 1.5em solid transparent;
+    right: 0;
+    bottom: -1.5em;
+}
+.info img
+{
+    width: 100%;
+}
+
+.noticeimg
+{
+    height: 200px;
+    object-fit: cover;
+}
+footer {
+    color: grey;
+    background: #292929;
+}
+footer p, a {
+ 
+}
+footer h6 {
+ 
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+.btn-footer {
+         color: grey;
+      
+        text-decoration: none;
+        border: 1px solid;
+        border-radius: 43px;
+        font-size: 13px;
+        padding: 2px 10px;
+        line-height: 27px;
+        display: block;
+        margin: 12px 0px;
+}
+.btn-footer:hover {
+        
+        text-decoration: none;
+       
+}
+.form-footer input[type="text"] {
+border: none;
+border-radius: 16px 0 0 16px;
+outline: none;
+padding-left: 10px;
+
+}
+::placeholder {
+font-size: 10px;
+padding-left: 10px;
+font-style: italic;
+}
+.form-footer input[type="button"] {
+border: none;
+background:#232323;
+margin-left: -5px;
+color: #fff;
+outline: none;
+border-radius: 0 16px 16px 0;
+padding: 2px 12px;
+}
+.social .fa {
+color: grey;
+font-size: 22px;
+padding: 10px 15px;
+background: #3c3c3c;
+}
+footer ul li {
+list-style: none;
+display: block;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: grey;
+text-decoration:none;
+}
+footer a:hover {
+text-decoration: none;
+color: #f5f5f5 !important;
+
+}
+.logo-part {
+border-right: 1px solid grey;
+height: 100%;
+}
+
+@media(max-width: 600px){
+    .logo{ text-align: center;}
+    .logo img{ width: 150px !important; margin: auto;}
+}
